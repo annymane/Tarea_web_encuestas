@@ -36,11 +36,17 @@ form {
 }
 
 table {
-    width: 95%;
+    width: 95%; /* ancho */
 }
 
 input[type="text"], select{
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+textarea {
+    width: calc(100% - 1px); /* ancho pero tiene en cuenta el padding */
+    padding: 10px;
+    resize: vertical; /* se agranda verticalmente */
 }
