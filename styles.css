@@ -1,0 +1,18 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cedff9;
+}
+
+.contenedor {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
