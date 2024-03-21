@@ -13,7 +13,7 @@ body{
 header {
     background-color: #007bff;
     color: white;
-    padding: 20px;
+    padding: 20px; /* espacio al rededor*/
     text-align: center;
 }
 
@@ -49,4 +49,24 @@ textarea {
     width: calc(100% - 1px); /* ancho pero tiene en cuenta el padding */
     padding: 10px;
     resize: vertical; /* se agranda verticalmente */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* hacemos que haga un borde redondeado */
+    cursor: pointer; /*cambia el puntero a una mano*/
+}
+
+button:hover {
+    background-color: #0056b3; /*cambia el color al pasar el puntero*/
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
